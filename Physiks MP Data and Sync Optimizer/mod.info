@@ -1,0 +1,10 @@
+name=Physiks MP DataSync Optimizer
+id=PhysiksDataSyncOptimizer
+description=Optimizes player synchronization for Project Zomboid with latency compensation, proximity updates, and bandwidth optimization.
+version=1.0
+poster=poster.png
+
+-- Load order for Lua files
+lua=media/lua/shared/PlayerSyncShared.lua
+lua=media/lua/shared/CheckInitialization.lua
+lua=media/lua/shared/SyncInterpolation.lua
